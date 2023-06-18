@@ -81,9 +81,9 @@ FakeSec ════> DDoS By FakeSec-Dos
 FakeSec ════> Jangan Leak Anjeng.
 \033[0m                   
 """)
-ip = str(input("IP : "))
+url = str(input("IP : "))
 port = int(input("PORT : "))
-method_attack = str(input("METHOD (GET,POST,HEAD) : "))
+method_attack = str(input("METHOD (POST) : "))
 times = int(input("PACKET (BEBAS) : "))
 threads = int(input("THREAD (1000) : "))
 fake_ip = '135.125.179.88'
